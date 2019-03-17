@@ -1,4 +1,4 @@
-# Srping Boot 2
+# Spring Boot 2
 
 Spring Boot 2 with Spring AOP and Spring Caching examples.
 
