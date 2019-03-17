@@ -27,7 +27,7 @@ java -jar application_name.jar
 
 ## MySQL
 
-MySQL structure and datas:
+MySQL structure and data:
 
 ```code
 /spring-aop-examples/src/main/resources/spring_boot_examples_forma_pagamento.sql
