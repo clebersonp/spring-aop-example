@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<type-mapping>
+		<sql-type jdbc-type="SMALLINT" hibernate-type="short"
+			not-null="true">
+		</sql-type>
+		<sql-type jdbc-type="TIMESTAMP" hibernate-type="timestamp"
+			length="26" not-null="true">
+		</sql-type>
+		<sql-type jdbc-type="TIMESTAMP" hibernate-type="timestamp"
+			length="26" not-null="true">
+		</sql-type>
+		<sql-type jdbc-type="VARCHAR" hibernate-type="string"
+			length="50" not-null="true">
+		</sql-type>
+		<sql-type jdbc-type="VARCHAR" hibernate-type="string"
+			length="50" not-null="true">
+		</sql-type>
+	</type-mapping>
+	<table-filter match-name="forma_pagamento"
+		match-catalog="spring_boot_examples">
+	</table-filter>
+	<table catalog="spring_boot_examples" name="forma_pagamento"
+		class="FormaPagamento">
+		<column name="id"></column>
+		<column name="usuario"></column>
+		<column name="descricao"></column>
+		<column name="dhr_alteracao" property="dataHoraAlteracao" type="java.time.LocalDateTime"></column>
+		<column name="dhr_inclusao" property="dataHoraInclusao" type="java.time.LocalDateTime"></column>
+	</table>
+</hibernate-reverse-engineering>
